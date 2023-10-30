@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/calculatorScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:textColor="#000000"
+        android:textSize="32sp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:columnCount="5"
+        android:rowCount="6"
+        android:padding="8dp"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/button_mc"
+            style="@style/CalculatorButton"
+            android:text="MC" />
+
+        <Button
+            android:id="@+id/button_mr"
+            style="@style/CalculatorButton"
+            android:text="MR" />
+
+        <Button
+            android:id="@+id/button_ms"
+            style="@style/CalculatorButton"
+            android:text="MS" />
+
+        <Button
+            android:id="@+id/button_mplus"
+            style="@style/CalculatorButton"
+            android:text="M+" />
+
+        <Button
+            android:id="@+id/button_mminus"
+            style="@style/CalculatorButton"
+            android:text="M-" />
+
+        <Button
+            android:id="@+id/button_back"
+            style="@style/CalculatorButton"
+            android:text="←" />
+
+        <Button
+            android:id="@+id/button_ce"
+            style="@style/CalculatorButton"
+            android:text="CE" />
+
+        <Button
+            android:id="@+id/button_c"
+            style="@style/CalculatorButton"
+            android:text="C" />
+
+        <Button
+            android:id="@+id/button_sqrt"
+            style="@style/CalculatorButton"
+            android:text="√" />
+
+        <Button
+            android:id="@+id/button_sign_change"
+            style="@style/CalculatorButton"
+            android:text="±" />
+
+        <Button
+            android:id="@+id/button_7"
+            style="@style/CalculatorButton"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/button_8"
+            style="@style/CalculatorButton"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/button_9"
+            style="@style/CalculatorButton"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/button_divide"
+            style="@style/CalculatorButton"
+            android:text="÷" />
+
+        <Button
+            android:id="@+id/button_4"
+            style="@style/CalculatorButton"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/button_5"
+            style="@style/CalculatorButton"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/button_6"
+            style="@style/CalculatorButton"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/button_multiply"
+            style="@style/CalculatorButton"
+            android:text="×" />
+
+        <Button
+            android:id="@+id/button_1"
+            style="@style/CalculatorButton"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/button_2"
+            style="@style/CalculatorButton"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/button_3"
+            style="@style/CalculatorButton"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/button_minus"
+            style="@style/CalculatorButton"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/button_0"
+            style="@style/CalculatorButtonLarger"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/button_equal"
+            style="@style/CalculatorButtonLarger"
+            android:text="=" />
+    </GridLayout>
+</LinearLayout>
